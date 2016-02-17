@@ -3,7 +3,7 @@ package day1.robot;
 import org.jointheleague.graphical.robot.Robot;
 
 public class TriangleShell {
-
+	// Remember all semicolons, or else it will not work.
 	// 1. Create a new Robot
 Robot Trianus = new Robot ("mini");
 	

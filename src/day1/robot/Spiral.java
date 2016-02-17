@@ -1,7 +1,7 @@
 package day1.robot;
 
 import org.jointheleague.graphical.robot.Robot;
-
+	//Remember all semicolons, or else it will not work.
 public class Spiral {
 
 	public static void main(String[] args) {
@@ -22,7 +22,7 @@ for (int i = 0; i < 1000; i++) {
 			// 2. Turn the robot 1/3 of 360 degrees to the right
 	Wings.turn(360/7);
 			// 8. Change the number of sides to 7 (don’t add a new line of code for this one!)
-	Wings.setPenWidth(10);
+	Wings.setPenWidth(1);
 }
 }
 }
