@@ -6,11 +6,9 @@ import javax.swing.JOptionPane;
 //Der Talk ist "Anna," so es ist in Deutsch und nicht in Englisch.
 public class StephenHawking {
 	public static void main(String[] args){
-		for (int i = 0; i < 30; i++) {
-		String words = JOptionPane.showInputDialog("Type a sentence.");
+		String words = JOptionPane.showInputDialog("Type how you feel right now.");
 		speak(words);
-		}
-		/*for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			speak("You are" + words + ".");
 		}
 		speak("Now, you are annoyed.");
@@ -23,9 +21,9 @@ public class StephenHawking {
 		}
 		speak("Goodbye. Thank you for putting up with this.");
 		for (int i = 0; i < 1000000000; i++) {
-			//speak("Nevermind. Du bist ein Arsch das ist doof.");
+		speak("Nevermind."); 
 			
-		}*/
+		}
 	}
 
 	// 1. make a main method and put steps 2, 3 & 4 inside it
